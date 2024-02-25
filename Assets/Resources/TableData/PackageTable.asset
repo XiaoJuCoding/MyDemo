@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a2a7bd48628014680ba49777ed07a2, type: 3}
+  m_Name: PackageTable
+  m_EditorClassIdentifier: 
+  DataList:
+  - id: 1
+    type: 1
+    star: 3
+    name: "\u957F\u5251"
+    description: "\u5E38\u89C1\u94C1\u5251"
+    skillDescription: "\u529B\u91CF+1"
+    iconPath: Icon/sword_01c
+  - id: 2
+    type: 1
+    star: 3
+    name: "\u6CD5\u6756"
+    description: "\u5E38\u89C1\u6CD5\u6756"
+    skillDescription: "\u667A\u529B+1"
+    iconPath: Icon/staff_02b
+  - id: 3
+    type: 1
+    star: 3
+    name: "\u9B54\u5BFC\u4E66"
+    description: "\u5E38\u89C1\u9B54\u5BFC\u4E66"
+    skillDescription: "\u5492\u672F+1"
+    iconPath: Icon/spellbook_01b
+  - id: 4
+    type: 1
+    star: 3
+    name: "\u957F\u5F13"
+    description: "\u5E38\u89C1\u957F\u5F13"
+    skillDescription: "\u654F\u6377+1"
+    iconPath: Icon/bow_01b
+  - id: 5
+    type: 1
+    star: 4
+    name: "\u6697\u94C1\u5927\u5251"
+    description: "\u7EA2\u8272\u5927\u5251"
+    skillDescription: "\u529B\u91CF+2"
+    iconPath: Icon/sword_03e
