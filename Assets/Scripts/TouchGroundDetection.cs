@@ -15,7 +15,7 @@ public class TouchGroundDetection : MonoBehaviour
 
     Animator animator;
 
-    public float groundCastdistance = 0.5f;
+    public float groundCastdistance = 0.05f;
     public float wallCastdistance = 0.5f;
     public float ceilingCastdistance = 0.5f;
 

@@ -417,6 +417,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: isGrounded
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: climb
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
   m_Solo: 0
@@ -470,6 +473,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: attack
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isGrounded
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -3280309990936646532}
@@ -690,6 +696,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isGrounded
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: climb
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1099,6 +1108,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isGrounded
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: climb
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -1516,6 +1528,9 @@ AnimatorTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: isGrounded
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: climb
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 1766842102675713574}
   m_DstState: {fileID: 0}
   m_Solo: 0
@@ -1756,6 +1771,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 2
     m_ConditionEvent: isOnWall
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: climb
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5685762538056289153}
   m_Solo: 0
@@ -1914,6 +1932,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: isGrounded
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: climb
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 0}
@@ -2151,13 +2172,13 @@ AnimatorStateMachine:
     - {fileID: 4253069326341007690}
     - {fileID: 5250687492907272362}
     - {fileID: -6381459478697728860}
-  - first: {fileID: 4785543846585540315}
-    second:
-    - {fileID: -3422592851552627943}
   - first: {fileID: 8658860449867475819}
     second:
     - {fileID: 1553538301106977081}
     - {fileID: -8823895462369531820}
+  - first: {fileID: 4785543846585540315}
+    second:
+    - {fileID: -3422592851552627943}
   - first: {fileID: 9161525637305799101}
     second:
     - {fileID: 2850402753306485326}
@@ -2177,6 +2198,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: attack
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: isGrounded
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -376630414219439625}

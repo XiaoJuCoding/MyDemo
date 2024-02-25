@@ -312,10 +312,11 @@ public class PlayerController : MonoBehaviour
         if (IsClimb)
         {
             rb2d.velocity = new Vector2(-transform.localScale.x * 5, jumpForce);
-            animator.SetTrigger(AnimationString.jump);
+            //animator.SetTrigger(AnimationString.jump);
             wallJumpCoolDown = 0;
         }
     }
+
 
     //ÖØÖÃ
     private void Restart()

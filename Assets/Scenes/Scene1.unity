@@ -31585,9 +31585,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 14b25b26f1ac42c49ac48f2cc202b557, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fc63584c0062d654891b114fd074000a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -32624,10 +32624,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3920826457974741060, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: m_Size.x
+      value: 0.54047394
+      objectReference: {fileID: 0}
+    - target: {fileID: 3920826457974741060, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6756577
+      objectReference: {fileID: 0}
+    - target: {fileID: 3920826457974741060, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0058631897
+      objectReference: {fileID: 0}
+    - target: {fileID: 3920826457974741060, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.19177556
+      objectReference: {fileID: 0}
     - target: {fileID: 5883204793218849071, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 6665844462530821744}
+    - target: {fileID: 5921008683319776309, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: wallCastdistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921008683319776309, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: groundCastdistance
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5921008683319776309, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
+      propertyPath: ceilingCastdistance
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6996031772941757362, guid: 8803dafb238158e4d81ff9cad1df6222, type: 3}
       propertyPath: healthBar
       value: 
